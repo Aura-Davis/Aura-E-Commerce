@@ -1,0 +1,12 @@
+.categories-component {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.categories-component-item {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 3em;
+}

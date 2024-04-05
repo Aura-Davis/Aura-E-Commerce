@@ -1,0 +1,64 @@
+.navbar {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    place-items:center;
+    color: beige;
+}
+
+.navbar1 {
+    display: flex;
+    gap: 5em;
+    justify-content: space-around;
+}
+
+.navbar2 {
+    text-decoration: none;
+    color: white;
+    margin: 0em 1em 0em 1em;
+}
+
+.navbar2:hover {
+    color: grey;
+}
+
+.navbar-link {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+        .navbar-link:hover {
+            color: grey;
+        }
+
+.nav-options {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.cart {
+    position: relative;
+}
+
+.cart-img {
+    width: 2em;
+    height: 2em;
+}
+
+.nav-cart-counter {
+    position: absolute;
+    top: 30%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 1em;
+    background-color: black;
+    color: white;
+    
+}
+
