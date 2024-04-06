@@ -10,11 +10,11 @@ const ProductDisplay = (props) => {
     const [visible, setVisible] = useState(false)
 
     const showAlert = () => {
-        if (visible === true) { // if the alert is visible return
+        if (visible === true) {
             return;
         }
         setVisible(true);
-        setTimeout(() => setVisible(false), 2500); // hide the alert after 2.5s
+        setTimeout(() => setVisible(false), 2500);
     }
 
     return (
