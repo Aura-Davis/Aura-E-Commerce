@@ -24,7 +24,6 @@
 .cart-items-quantity {
     width: 1em;
     display: flex;
-    
     place-content: center;
 }
 
@@ -62,3 +61,20 @@
     .cart-items-total button:hover {
         background-color: green;
     }
+
+@media(max-width:600px) {
+    .cart-items {
+        font-size: 16px;
+    }
+
+    .image {
+        height: 3em;
+        width: 3em;
+    }
+}
+
+@media(max-width:450px) {
+    .cart-items {
+        font-size: 12px;
+    }
+}

@@ -7,12 +7,6 @@
     color: beige;
 }
 
-.navbar1 {
-    display: flex;
-    gap: 5em;
-    justify-content: space-around;
-}
-
 .navbar2 {
     text-decoration: none;
     color: white;
@@ -27,7 +21,6 @@
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-decoration: none;
     color: inherit;
 }
 
@@ -59,6 +52,34 @@
     border-radius: 1em;
     background-color: black;
     color: white;
-    
+    text-decoration: none;
 }
 
+.nav-dropdown {
+    display: none;
+}
+
+@media(max-width:800px) {
+    .nav-dropdown {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .nav-options {
+        display: none;
+        
+        background-color: black;
+        min-width: 160px;
+        padding: 12px 16px;
+        z-index: 1;
+    }
+
+    .menu-visable {
+        display: block;
+    }
+    
+    .logo-invisible {
+        display: none;
+    }
+}

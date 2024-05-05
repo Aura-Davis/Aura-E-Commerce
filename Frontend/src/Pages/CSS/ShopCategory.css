@@ -16,3 +16,16 @@
     padding: 10px;
     gap: 3em;
 }
+
+@media(max-width:950px) {
+    .products {
+        grid-template-columns: auto auto;
+        gap: 0em;
+    }
+}
+
+@media(max-width:600px) {
+    .products {
+        grid-template-columns: auto;
+    }
+}

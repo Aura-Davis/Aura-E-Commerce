@@ -10,3 +10,16 @@
     padding: 10px;
     gap: 3em;
 }
+
+@media(max-width:950px) {
+    .categories-component-item {
+        grid-template-columns: auto auto;
+        gap: 0em;
+    }
+}
+
+@media(max-width:600px) {
+    .categories-component-item {
+        grid-template-columns: auto;
+    }
+}

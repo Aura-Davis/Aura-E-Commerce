@@ -24,10 +24,6 @@
     text-decoration: none;
 }
 
-    .item-link:hover {
-        
-    }
-
 .item {
     margin: 0em 1em 1em 1em;
     font-size: 18px;
@@ -51,8 +47,6 @@
     transition: 0.6s;
 }
 
-
-
 .item-btn {
     height: 2em;
     width: 10em;
@@ -72,4 +66,18 @@
     color: darkgreen;
     font-size: 20px;
     font-weight: bold;
+}
+
+@media(max-width:1280px) {
+    .item {
+        width: 12em;
+        height: 21em;
+    }
+    .item-image {
+        width: 9em;
+        height: 9em;
+    }
+    .item-btn {
+        width: 8em;
+    }
 }

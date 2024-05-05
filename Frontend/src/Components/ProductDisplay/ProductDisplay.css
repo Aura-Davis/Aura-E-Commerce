@@ -11,7 +11,7 @@
 .image-list {
     display: flex;
     flex-direction: column;
-    gap: .2em;
+    
 }
 
 .image-list img {
@@ -68,4 +68,68 @@
     color: darkgreen;
     font-size: 20px;
     font-weight: bold;
+}
+
+@media(max-width:1024px) {
+    .product-display {
+        font-size: 20px;
+    }
+
+    .main-image {
+        width: 20em;
+        height: 20em;
+    }
+    
+    .image-list img {
+        height: 5em;
+        width: 5em;
+    }
+
+    .show-alert {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:800px) {
+    h1 {
+        font-size: 16px;
+    }
+
+    .breadcrum-link {
+        font-size: 16px;
+    }
+    
+    .product-display {
+        font-size: 18px;
+    }
+
+    .main-image {
+        width: 12em;
+        height: 12em;
+    }
+
+    .image-list img {
+        height: 3em;
+        width: 3em;
+    }
+
+    .product-display-right {
+        margin: 0em .5em;
+    }
+
+    .show-alert {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:800px) {
+    .main-image {
+        width: 8em;
+        height: 8em;
+    }
+
+    .image-list img {
+        height: 2em;
+        width: 2em;
+    }
 }

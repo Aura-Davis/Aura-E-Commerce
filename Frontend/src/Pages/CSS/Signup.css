@@ -58,3 +58,24 @@
     .signup-span:hover {
         color: black;
     }
+
+@media(max-width:800px) {
+    .signup-container {
+        width: 15em;
+    }
+}
+
+@media(max-width:500px) {
+    .signup-container {
+        width: 10em;
+    }
+
+        .signup-container button {
+            width: 7em;
+            font-size: 18px;
+        }
+
+    .signup-span {
+        font-size: 18px;
+    }
+}

@@ -21,3 +21,16 @@
     .categories-link:hover {
         color: darkgreen;
     }
+
+@media(max-width:950px) {
+    .popular-item {
+        grid-template-columns: auto auto;
+        gap: 0em;
+    }
+}
+
+@media(max-width:600px) {
+    .popular-item {
+        grid-template-columns: auto;
+    }
+}
